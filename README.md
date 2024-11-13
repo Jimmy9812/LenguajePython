@@ -46,10 +46,11 @@ python app.py
 ```
 ### Run the image of Docker Hub
 You can pull and run it on any machine that has Docker installed.
+ ```bash
 
 docker pull Jimmy9812/LenguajePython
 
 docker run -p 5000:5000 Jimmy9812/LenguajePython:latest
-
+ ```
 ### Usage
 Once the application is running, you can access it at http://localhost:5000
